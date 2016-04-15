@@ -9,7 +9,8 @@
 
 ### Instalação ###
 ----------------------------
-Deve-se alterar as configurações do banco da dados, listadas abaixo, no arquivo application.properties.
+
+Primeiramente, deve-se criar um banco de dados com o nome contactsdb. Logo depois, deve-se alterar as configurações do banco da dados, listadas abaixo, no arquivo application.properties.
 
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/contactsdb
@@ -35,7 +36,9 @@ mvn spring-boot:run
 
 > Java (OK)
 
-> Spring (Core / Security / Data / Boot) (OK)
+> Spring (Core / Data / Boot) (OK)
+
+> Spring Security com OAuth 2
 
 > RESTful Web Service (Level 2: HTTP Verbs) (OK)
 
