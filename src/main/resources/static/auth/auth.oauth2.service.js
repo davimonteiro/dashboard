@@ -22,7 +22,7 @@ angular.module('ContactManager')
                     
                     $rootScope.oauth = {
                     		access_toke: response
-                    }
+                    };
                     
                     
                     var config = {
